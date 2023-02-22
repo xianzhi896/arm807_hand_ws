@@ -1,0 +1,8 @@
+prefix=/home/yxz/arm807_hand_ws/install
+
+Name: hand_config
+Description: Description of hand_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

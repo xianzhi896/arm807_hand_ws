@@ -1,0 +1,8 @@
+prefix=/home/yxz/arm807_hand_ws/devel
+
+Name: gpd_grasp_msgs
+Description: Description of gpd_grasp_msgs
+Version: 0.0.0
+Cflags: -I/home/yxz/arm807_hand_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

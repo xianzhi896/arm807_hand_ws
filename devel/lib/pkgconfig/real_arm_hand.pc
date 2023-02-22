@@ -1,0 +1,8 @@
+prefix=/home/yxz/arm807_hand_ws/devel
+
+Name: real_arm_hand
+Description: Description of real_arm_hand
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

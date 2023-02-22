@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="real_arm_hand" type="arm807" name="real_driver_node" respawn="false" output="screen"/>
+  <!--<node ns="/abb" pkg="abb_driver" type="abb_main" name="abb_driver_node" respawn="false"/>-->
+</launch>

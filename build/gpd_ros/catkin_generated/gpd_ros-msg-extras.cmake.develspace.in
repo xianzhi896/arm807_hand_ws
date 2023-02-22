@@ -1,0 +1,2 @@
+set(gpd_ros_MESSAGE_FILES "/home/yxz/arm807_hand_ws/src/gpd_ros/msg/CloudIndexed.msg;/home/yxz/arm807_hand_ws/src/gpd_ros/msg/CloudSamples.msg;/home/yxz/arm807_hand_ws/src/gpd_ros/msg/CloudSources.msg;/home/yxz/arm807_hand_ws/src/gpd_ros/msg/GraspConfig.msg;/home/yxz/arm807_hand_ws/src/gpd_ros/msg/GraspConfigList.msg;/home/yxz/arm807_hand_ws/src/gpd_ros/msg/SamplesMsg.msg")
+set(gpd_ros_SERVICE_FILES "/home/yxz/arm807_hand_ws/src/gpd_ros/srv/detect_grasps.srv")

@@ -1,0 +1,10 @@
+<launch>
+	<arg name="object_prefix" default="object"/>
+  <!--打开D3435i相机-->
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+
+  <!--打开find_object_3d-->
+  <include file="$(find find_object_2d)/launch/ros1/find_object_3d.launch"/>
+
+
+</launch>

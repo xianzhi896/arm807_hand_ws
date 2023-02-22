@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/yxz/catkin_ws/devel/include/**",
+                "/home/yxz/arm807_hand_ws/devel/include/**",
+                "/home/yxz/ws_moveit/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+                "/home/yxz/catkin_ws/src/ddynamic_reconfigure/include/**",
+                "/home/yxz/arm807_hand_ws/src/find_object_2d/include/**",
+                "/home/yxz/ws_moveit/src/geometric_shapes/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+                "/home/yxz/ws_moveit/src/moveit_resources/prbt_ikfast_manipulator_plugin/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_ros/benchmarks/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_ros/move_group/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_ros/robot_interaction/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_ros/moveit_servo/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_setup_assistant/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+                "/home/yxz/ws_moveit/src/moveit_visual_tools/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner/include/**",
+                "/home/yxz/ws_moveit/src/moveit/moveit_planners/pilz_industrial_motion_planner_testutils/include/**",
+                "/home/yxz/bit807_-robo-arm_-ros-master/src/arm807_7/real_arm/include/**",
+                "/home/yxz/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+                "/home/yxz/ws_moveit/src/rviz_visual_tools/include/**",
+                "/home/yxz/ws_moveit/src/srdfdom/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/real_arm_hand/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
