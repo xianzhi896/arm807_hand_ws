@@ -67,9 +67,9 @@ gpd_grasp_msgs/CMakeFiles/gpd_grasp_msgs_generate_messages_nodejs: /home/yxz/arm
 
 /home/yxz/arm807_hand_ws/devel/share/gennodejs/ros/gpd_grasp_msgs/msg/GraspConfigList.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/yxz/arm807_hand_ws/devel/share/gennodejs/ros/gpd_grasp_msgs/msg/GraspConfigList.js: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg
+/home/yxz/arm807_hand_ws/devel/share/gennodejs/ros/gpd_grasp_msgs/msg/GraspConfigList.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/share/gennodejs/ros/gpd_grasp_msgs/msg/GraspConfigList.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yxz/arm807_hand_ws/devel/share/gennodejs/ros/gpd_grasp_msgs/msg/GraspConfigList.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yxz/arm807_hand_ws/devel/share/gennodejs/ros/gpd_grasp_msgs/msg/GraspConfigList.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/share/gennodejs/ros/gpd_grasp_msgs/msg/GraspConfigList.js: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg
 /home/yxz/arm807_hand_ws/devel/share/gennodejs/ros/gpd_grasp_msgs/msg/GraspConfigList.js: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yxz/arm807_hand_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from gpd_grasp_msgs/GraspConfigList.msg"

@@ -14,6 +14,11 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   sensor_msgs
   serial
+  std_msgs
+  message_generation
+  rs_yolo
+  moveit_ros_planning_interface
+  moveit_visual_tools
 )
 
 ## System dependencies are found with CMake's conventions
@@ -108,7 +113,16 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES real_arm_hand
-#  CATKIN_DEPENDS actionlib moveit_msgs roscpp rospy sensor_msgs serial
+  CATKIN_DEPENDS 
+    actionlib 
+    moveit_msgs 
+    roscpp 
+    rospy 
+    sensor_msgs 
+    serial 
+    moveit_core
+    moveit_ros_planning_interface
+    moveit_visual_tools
 #  DEPENDS system_lib
 )
 
@@ -118,11 +132,7 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(
-  include ${catkin_INCLUDE_DIRS}
-# include
-  ${catkin_INCLUDE_DIRS}
-)
+include_directories(include ${catkin_INCLUDE_DIRS})
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -221,3 +231,9 @@ add_dependencies(arm807 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TA
 target_link_libraries(arm807
   ${catkin_LIBRARIES}
 )
+
+add_executable(plan_grasps src/plan_grasps.cpp)
+target_link_libraries(plan_grasps ${catkin_LIBRARIES})
+add_dependencies(plan_grasps ${catkin_EXPORTED_TARGETS} ${${PROJECT_NAME}_EXPORTED_TARGETS})
+
+add_dependencies(plan_grasps rs_yolo_gencpp)#调用同一工作空间的自定义消息类型时注明依赖关系，防止发生头文件找不到的报错

@@ -27,3 +27,6 @@ pandas
 # extras --------------------------------------
 #thop  # FLOPS computation
 #pycocotools>=2.0  # COCO mAP
+
+-f https://data.pyg.org/whl/torch-1.13.0+cpu.html
+torch-scatter

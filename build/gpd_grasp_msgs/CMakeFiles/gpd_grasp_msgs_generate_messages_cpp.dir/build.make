@@ -68,9 +68,9 @@ gpd_grasp_msgs/CMakeFiles/gpd_grasp_msgs_generate_messages_cpp: /home/yxz/arm807
 
 /home/yxz/arm807_hand_ws/devel/include/gpd_grasp_msgs/GraspConfigList.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yxz/arm807_hand_ws/devel/include/gpd_grasp_msgs/GraspConfigList.h: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg
+/home/yxz/arm807_hand_ws/devel/include/gpd_grasp_msgs/GraspConfigList.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/include/gpd_grasp_msgs/GraspConfigList.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yxz/arm807_hand_ws/devel/include/gpd_grasp_msgs/GraspConfigList.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yxz/arm807_hand_ws/devel/include/gpd_grasp_msgs/GraspConfigList.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/include/gpd_grasp_msgs/GraspConfigList.h: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg
 /home/yxz/arm807_hand_ws/devel/include/gpd_grasp_msgs/GraspConfigList.h: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 /home/yxz/arm807_hand_ws/devel/include/gpd_grasp_msgs/GraspConfigList.h: /opt/ros/noetic/share/gencpp/msg.h.template

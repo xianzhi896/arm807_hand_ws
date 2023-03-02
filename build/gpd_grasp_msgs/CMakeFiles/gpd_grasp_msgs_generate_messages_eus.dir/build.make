@@ -68,9 +68,9 @@ gpd_grasp_msgs/CMakeFiles/gpd_grasp_msgs_generate_messages_eus: /home/yxz/arm807
 
 /home/yxz/arm807_hand_ws/devel/share/roseus/ros/gpd_grasp_msgs/msg/GraspConfigList.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yxz/arm807_hand_ws/devel/share/roseus/ros/gpd_grasp_msgs/msg/GraspConfigList.l: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg
+/home/yxz/arm807_hand_ws/devel/share/roseus/ros/gpd_grasp_msgs/msg/GraspConfigList.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/share/roseus/ros/gpd_grasp_msgs/msg/GraspConfigList.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yxz/arm807_hand_ws/devel/share/roseus/ros/gpd_grasp_msgs/msg/GraspConfigList.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yxz/arm807_hand_ws/devel/share/roseus/ros/gpd_grasp_msgs/msg/GraspConfigList.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/share/roseus/ros/gpd_grasp_msgs/msg/GraspConfigList.l: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg
 /home/yxz/arm807_hand_ws/devel/share/roseus/ros/gpd_grasp_msgs/msg/GraspConfigList.l: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yxz/arm807_hand_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from gpd_grasp_msgs/GraspConfigList.msg"

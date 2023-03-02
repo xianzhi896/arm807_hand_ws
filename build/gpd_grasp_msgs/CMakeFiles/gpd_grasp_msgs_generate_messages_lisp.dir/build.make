@@ -67,9 +67,9 @@ gpd_grasp_msgs/CMakeFiles/gpd_grasp_msgs_generate_messages_lisp: /home/yxz/arm80
 
 /home/yxz/arm807_hand_ws/devel/share/common-lisp/ros/gpd_grasp_msgs/msg/GraspConfigList.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yxz/arm807_hand_ws/devel/share/common-lisp/ros/gpd_grasp_msgs/msg/GraspConfigList.lisp: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg
+/home/yxz/arm807_hand_ws/devel/share/common-lisp/ros/gpd_grasp_msgs/msg/GraspConfigList.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/share/common-lisp/ros/gpd_grasp_msgs/msg/GraspConfigList.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yxz/arm807_hand_ws/devel/share/common-lisp/ros/gpd_grasp_msgs/msg/GraspConfigList.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yxz/arm807_hand_ws/devel/share/common-lisp/ros/gpd_grasp_msgs/msg/GraspConfigList.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/share/common-lisp/ros/gpd_grasp_msgs/msg/GraspConfigList.lisp: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg
 /home/yxz/arm807_hand_ws/devel/share/common-lisp/ros/gpd_grasp_msgs/msg/GraspConfigList.lisp: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yxz/arm807_hand_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from gpd_grasp_msgs/GraspConfigList.msg"

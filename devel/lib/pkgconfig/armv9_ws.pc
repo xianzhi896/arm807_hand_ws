@@ -1,0 +1,8 @@
+prefix=/home/yxz/arm807_hand_ws/devel
+
+Name: armv9_ws
+Description: Description of armv9_ws
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

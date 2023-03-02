@@ -102,17 +102,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -123,6 +112,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # Special rule for the target test
 test:
@@ -168,126 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-camera_positioner/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/bond_generate_messages_lisp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/bond_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_lisp: camera_positioner/CMakeFiles/bond_generate_messages_lisp.dir/rule
-
-.PHONY : bond_generate_messages_lisp
-
-# fast build rule for target.
-bond_generate_messages_lisp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/bond_generate_messages_lisp.dir/build.make camera_positioner/CMakeFiles/bond_generate_messages_lisp.dir/build
-.PHONY : bond_generate_messages_lisp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/nodelet_generate_messages_py.dir/rule
-.PHONY : camera_positioner/CMakeFiles/nodelet_generate_messages_py.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_py: camera_positioner/CMakeFiles/nodelet_generate_messages_py.dir/rule
-
-.PHONY : nodelet_generate_messages_py
-
-# fast build rule for target.
-nodelet_generate_messages_py/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/nodelet_generate_messages_py.dir/build.make camera_positioner/CMakeFiles/nodelet_generate_messages_py.dir/build
-.PHONY : nodelet_generate_messages_py/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_nodejs: camera_positioner/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-
-.PHONY : tf_generate_messages_nodejs
-
-# fast build rule for target.
-tf_generate_messages_nodejs/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf_generate_messages_nodejs.dir/build.make camera_positioner/CMakeFiles/tf_generate_messages_nodejs.dir/build
-.PHONY : tf_generate_messages_nodejs/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/bond_generate_messages_cpp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/bond_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_cpp: camera_positioner/CMakeFiles/bond_generate_messages_cpp.dir/rule
-
-.PHONY : bond_generate_messages_cpp
-
-# fast build rule for target.
-bond_generate_messages_cpp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/bond_generate_messages_cpp.dir/build.make camera_positioner/CMakeFiles/bond_generate_messages_cpp.dir/build
-.PHONY : bond_generate_messages_cpp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/bond_generate_messages_eus.dir/rule
-.PHONY : camera_positioner/CMakeFiles/bond_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_eus: camera_positioner/CMakeFiles/bond_generate_messages_eus.dir/rule
-
-.PHONY : bond_generate_messages_eus
-
-# fast build rule for target.
-bond_generate_messages_eus/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/bond_generate_messages_eus.dir/build.make camera_positioner/CMakeFiles/bond_generate_messages_eus.dir/build
-.PHONY : bond_generate_messages_eus/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_lisp: camera_positioner/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-
-.PHONY : nodelet_generate_messages_lisp
-
-# fast build rule for target.
-nodelet_generate_messages_lisp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make camera_positioner/CMakeFiles/nodelet_generate_messages_lisp.dir/build
-.PHONY : nodelet_generate_messages_lisp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_cpp: camera_positioner/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-
-.PHONY : nodelet_generate_messages_cpp
-
-# fast build rule for target.
-nodelet_generate_messages_cpp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make camera_positioner/CMakeFiles/nodelet_generate_messages_cpp.dir/build
-.PHONY : nodelet_generate_messages_cpp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/apriltag_ros_generate_messages_py.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/apriltag_ros_generate_messages_py.dir/rule
-.PHONY : camera_positioner/CMakeFiles/apriltag_ros_generate_messages_py.dir/rule
-
-# Convenience name for target.
-apriltag_ros_generate_messages_py: camera_positioner/CMakeFiles/apriltag_ros_generate_messages_py.dir/rule
-
-.PHONY : apriltag_ros_generate_messages_py
-
-# fast build rule for target.
-apriltag_ros_generate_messages_py/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/apriltag_ros_generate_messages_py.dir/build.make camera_positioner/CMakeFiles/apriltag_ros_generate_messages_py.dir/build
-.PHONY : apriltag_ros_generate_messages_py/fast
-
-# Convenience name for target.
 camera_positioner/CMakeFiles/camera_positioner.dir/rule:
 	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/camera_positioner.dir/rule
 .PHONY : camera_positioner/CMakeFiles/camera_positioner.dir/rule
@@ -301,261 +181,6 @@ camera_positioner: camera_positioner/CMakeFiles/camera_positioner.dir/rule
 camera_positioner/fast:
 	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/camera_positioner.dir/build.make camera_positioner/CMakeFiles/camera_positioner.dir/build
 .PHONY : camera_positioner/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/apriltag_ros_generate_messages_nodejs.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/apriltag_ros_generate_messages_nodejs.dir/rule
-.PHONY : camera_positioner/CMakeFiles/apriltag_ros_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-apriltag_ros_generate_messages_nodejs: camera_positioner/CMakeFiles/apriltag_ros_generate_messages_nodejs.dir/rule
-
-.PHONY : apriltag_ros_generate_messages_nodejs
-
-# fast build rule for target.
-apriltag_ros_generate_messages_nodejs/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/apriltag_ros_generate_messages_nodejs.dir/build.make camera_positioner/CMakeFiles/apriltag_ros_generate_messages_nodejs.dir/build
-.PHONY : apriltag_ros_generate_messages_nodejs/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf_generate_messages_lisp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_lisp: camera_positioner/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-.PHONY : tf_generate_messages_lisp
-
-# fast build rule for target.
-tf_generate_messages_lisp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf_generate_messages_lisp.dir/build.make camera_positioner/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_lisp: camera_positioner/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_lisp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_lisp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make camera_positioner/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-.PHONY : tf2_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/apriltag_ros_generate_messages_lisp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/apriltag_ros_generate_messages_lisp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/apriltag_ros_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-apriltag_ros_generate_messages_lisp: camera_positioner/CMakeFiles/apriltag_ros_generate_messages_lisp.dir/rule
-
-.PHONY : apriltag_ros_generate_messages_lisp
-
-# fast build rule for target.
-apriltag_ros_generate_messages_lisp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/apriltag_ros_generate_messages_lisp.dir/build.make camera_positioner/CMakeFiles/apriltag_ros_generate_messages_lisp.dir/build
-.PHONY : apriltag_ros_generate_messages_lisp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/nodelet_generate_messages_eus.dir/rule
-.PHONY : camera_positioner/CMakeFiles/nodelet_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_eus: camera_positioner/CMakeFiles/nodelet_generate_messages_eus.dir/rule
-
-.PHONY : nodelet_generate_messages_eus
-
-# fast build rule for target.
-nodelet_generate_messages_eus/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/nodelet_generate_messages_eus.dir/build.make camera_positioner/CMakeFiles/nodelet_generate_messages_eus.dir/build
-.PHONY : nodelet_generate_messages_eus/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/apriltag_ros_generate_messages_eus.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/apriltag_ros_generate_messages_eus.dir/rule
-.PHONY : camera_positioner/CMakeFiles/apriltag_ros_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-apriltag_ros_generate_messages_eus: camera_positioner/CMakeFiles/apriltag_ros_generate_messages_eus.dir/rule
-
-.PHONY : apriltag_ros_generate_messages_eus
-
-# fast build rule for target.
-apriltag_ros_generate_messages_eus/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/apriltag_ros_generate_messages_eus.dir/build.make camera_positioner/CMakeFiles/apriltag_ros_generate_messages_eus.dir/build
-.PHONY : apriltag_ros_generate_messages_eus/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
-.PHONY : camera_positioner/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_nodejs: camera_positioner/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
-
-.PHONY : nodelet_generate_messages_nodejs
-
-# fast build rule for target.
-nodelet_generate_messages_nodejs/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make camera_positioner/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
-.PHONY : nodelet_generate_messages_nodejs/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/bond_generate_messages_nodejs.dir/rule
-.PHONY : camera_positioner/CMakeFiles/bond_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_nodejs: camera_positioner/CMakeFiles/bond_generate_messages_nodejs.dir/rule
-
-.PHONY : bond_generate_messages_nodejs
-
-# fast build rule for target.
-bond_generate_messages_nodejs/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/bond_generate_messages_nodejs.dir/build.make camera_positioner/CMakeFiles/bond_generate_messages_nodejs.dir/build
-.PHONY : bond_generate_messages_nodejs/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf_generate_messages_cpp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_cpp: camera_positioner/CMakeFiles/tf_generate_messages_cpp.dir/rule
-
-.PHONY : tf_generate_messages_cpp
-
-# fast build rule for target.
-tf_generate_messages_cpp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf_generate_messages_cpp.dir/build.make camera_positioner/CMakeFiles/tf_generate_messages_cpp.dir/build
-.PHONY : tf_generate_messages_cpp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf_generate_messages_py.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_py: camera_positioner/CMakeFiles/tf_generate_messages_py.dir/rule
-
-.PHONY : tf_generate_messages_py
-
-# fast build rule for target.
-tf_generate_messages_py/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf_generate_messages_py.dir/build.make camera_positioner/CMakeFiles/tf_generate_messages_py.dir/build
-.PHONY : tf_generate_messages_py/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf_generate_messages_eus.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_eus: camera_positioner/CMakeFiles/tf_generate_messages_eus.dir/rule
-
-.PHONY : tf_generate_messages_eus
-
-# fast build rule for target.
-tf_generate_messages_eus/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf_generate_messages_eus.dir/build.make camera_positioner/CMakeFiles/tf_generate_messages_eus.dir/build
-.PHONY : tf_generate_messages_eus/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_cpp: camera_positioner/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_cpp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_cpp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make camera_positioner/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-.PHONY : tf2_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_eus: camera_positioner/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_eus
-
-# fast build rule for target.
-tf2_msgs_generate_messages_eus/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make camera_positioner/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
-.PHONY : tf2_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/apriltag_ros_generate_messages_cpp.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/apriltag_ros_generate_messages_cpp.dir/rule
-.PHONY : camera_positioner/CMakeFiles/apriltag_ros_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-apriltag_ros_generate_messages_cpp: camera_positioner/CMakeFiles/apriltag_ros_generate_messages_cpp.dir/rule
-
-.PHONY : apriltag_ros_generate_messages_cpp
-
-# fast build rule for target.
-apriltag_ros_generate_messages_cpp/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/apriltag_ros_generate_messages_cpp.dir/build.make camera_positioner/CMakeFiles/apriltag_ros_generate_messages_cpp.dir/build
-.PHONY : apriltag_ros_generate_messages_cpp/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/bond_generate_messages_py.dir/rule
-.PHONY : camera_positioner/CMakeFiles/bond_generate_messages_py.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_py: camera_positioner/CMakeFiles/bond_generate_messages_py.dir/rule
-
-.PHONY : bond_generate_messages_py
-
-# fast build rule for target.
-bond_generate_messages_py/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/bond_generate_messages_py.dir/build.make camera_positioner/CMakeFiles/bond_generate_messages_py.dir/build
-.PHONY : bond_generate_messages_py/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_nodejs: camera_positioner/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-tf2_msgs_generate_messages_nodejs/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make camera_positioner/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
-.PHONY : tf2_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-camera_positioner/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f CMakeFiles/Makefile2 camera_positioner/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-.PHONY : camera_positioner/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_py: camera_positioner/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_py
-
-# fast build rule for target.
-tf2_msgs_generate_messages_py/fast:
-	cd /home/yxz/arm807_hand_ws/build && $(MAKE) -f camera_positioner/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make camera_positioner/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-.PHONY : tf2_msgs_generate_messages_py/fast
 
 src/camera_positioner.o: src/camera_positioner.cpp.o
 
@@ -594,35 +219,10 @@ help:
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... bond_generate_messages_lisp"
-	@echo "... nodelet_generate_messages_py"
-	@echo "... tf_generate_messages_nodejs"
-	@echo "... bond_generate_messages_cpp"
-	@echo "... bond_generate_messages_eus"
-	@echo "... nodelet_generate_messages_lisp"
-	@echo "... nodelet_generate_messages_cpp"
-	@echo "... apriltag_ros_generate_messages_py"
-	@echo "... camera_positioner"
-	@echo "... apriltag_ros_generate_messages_nodejs"
-	@echo "... edit_cache"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... tf2_msgs_generate_messages_lisp"
-	@echo "... apriltag_ros_generate_messages_lisp"
-	@echo "... nodelet_generate_messages_eus"
-	@echo "... apriltag_ros_generate_messages_eus"
-	@echo "... nodelet_generate_messages_nodejs"
-	@echo "... bond_generate_messages_nodejs"
-	@echo "... tf_generate_messages_cpp"
-	@echo "... tf_generate_messages_py"
-	@echo "... tf_generate_messages_eus"
-	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... rebuild_cache"
-	@echo "... tf2_msgs_generate_messages_eus"
-	@echo "... apriltag_ros_generate_messages_cpp"
-	@echo "... bond_generate_messages_py"
-	@echo "... tf2_msgs_generate_messages_nodejs"
-	@echo "... tf2_msgs_generate_messages_py"
+	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... camera_positioner"
 	@echo "... src/camera_positioner.o"
 	@echo "... src/camera_positioner.i"
 	@echo "... src/camera_positioner.s"

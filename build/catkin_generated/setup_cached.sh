@@ -7,5 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PATH='/opt/ros/noetic/bin:/home/yxz/anaconda3/envs/yolov5/bin:/home/yxz/anaconda3/condabin:/home/yxz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PATH='/opt/ros/noetic/bin:/home/yxz/.local/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/yxz/arm807_hand_ws/build'

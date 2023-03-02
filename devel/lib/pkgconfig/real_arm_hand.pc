@@ -5,4 +5,4 @@ Description: Description of real_arm_hand
 Version: 0.0.0
 Cflags: 
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: actionlib moveit_msgs roscpp rospy sensor_msgs serial moveit_core moveit_ros_planning_interface moveit_visual_tools

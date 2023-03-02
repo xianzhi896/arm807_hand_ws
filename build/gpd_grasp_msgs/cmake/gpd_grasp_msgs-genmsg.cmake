@@ -24,7 +24,7 @@ add_custom_target(_gpd_grasp_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg" NAME_WE)
 add_custom_target(_gpd_grasp_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "gpd_grasp_msgs" "/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg" "geometry_msgs/Vector3:std_msgs/Header:geometry_msgs/Point:gpd_grasp_msgs/GraspConfig:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "gpd_grasp_msgs" "/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg" "std_msgs/Header:gpd_grasp_msgs/GraspConfig:std_msgs/Float32:geometry_msgs/Vector3:geometry_msgs/Point"
 )
 
 #
@@ -42,7 +42,7 @@ _generate_msg_cpp(gpd_grasp_msgs
 _generate_msg_cpp(gpd_grasp_msgs
   "/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/gpd_grasp_msgs
 )
 
@@ -83,7 +83,7 @@ _generate_msg_eus(gpd_grasp_msgs
 _generate_msg_eus(gpd_grasp_msgs
   "/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/gpd_grasp_msgs
 )
 
@@ -124,7 +124,7 @@ _generate_msg_lisp(gpd_grasp_msgs
 _generate_msg_lisp(gpd_grasp_msgs
   "/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/gpd_grasp_msgs
 )
 
@@ -165,7 +165,7 @@ _generate_msg_nodejs(gpd_grasp_msgs
 _generate_msg_nodejs(gpd_grasp_msgs
   "/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/gpd_grasp_msgs
 )
 
@@ -206,7 +206,7 @@ _generate_msg_py(gpd_grasp_msgs
 _generate_msg_py(gpd_grasp_msgs
   "/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/gpd_grasp_msgs
 )
 

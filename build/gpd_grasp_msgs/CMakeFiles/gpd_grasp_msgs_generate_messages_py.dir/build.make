@@ -68,9 +68,9 @@ gpd_grasp_msgs/CMakeFiles/gpd_grasp_msgs_generate_messages_py: /home/yxz/arm807_
 
 /home/yxz/arm807_hand_ws/devel/lib/python3/dist-packages/gpd_grasp_msgs/msg/_GraspConfigList.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yxz/arm807_hand_ws/devel/lib/python3/dist-packages/gpd_grasp_msgs/msg/_GraspConfigList.py: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg
+/home/yxz/arm807_hand_ws/devel/lib/python3/dist-packages/gpd_grasp_msgs/msg/_GraspConfigList.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/lib/python3/dist-packages/gpd_grasp_msgs/msg/_GraspConfigList.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yxz/arm807_hand_ws/devel/lib/python3/dist-packages/gpd_grasp_msgs/msg/_GraspConfigList.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yxz/arm807_hand_ws/devel/lib/python3/dist-packages/gpd_grasp_msgs/msg/_GraspConfigList.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yxz/arm807_hand_ws/devel/lib/python3/dist-packages/gpd_grasp_msgs/msg/_GraspConfigList.py: /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfig.msg
 /home/yxz/arm807_hand_ws/devel/lib/python3/dist-packages/gpd_grasp_msgs/msg/_GraspConfigList.py: /opt/ros/noetic/share/std_msgs/msg/Float32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yxz/arm807_hand_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG gpd_grasp_msgs/GraspConfigList"

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yxz/arm807_hand_ws/build
 include gpd_grasp_msgs/CMakeFiles/_gpd_grasp_msgs_generate_messages_check_deps_GraspConfigList.dir/progress.make
 
 gpd_grasp_msgs/CMakeFiles/_gpd_grasp_msgs_generate_messages_check_deps_GraspConfigList:
-	cd /home/yxz/arm807_hand_ws/build/gpd_grasp_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py gpd_grasp_msgs /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg geometry_msgs/Vector3:std_msgs/Header:geometry_msgs/Point:gpd_grasp_msgs/GraspConfig:std_msgs/Float32
+	cd /home/yxz/arm807_hand_ws/build/gpd_grasp_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py gpd_grasp_msgs /home/yxz/arm807_hand_ws/src/gpd_grasp_msgs/msg/GraspConfigList.msg geometry_msgs/Point:geometry_msgs/Vector3:std_msgs/Header:gpd_grasp_msgs/GraspConfig:std_msgs/Float32
 
 _gpd_grasp_msgs_generate_messages_check_deps_GraspConfigList: gpd_grasp_msgs/CMakeFiles/_gpd_grasp_msgs_generate_messages_check_deps_GraspConfigList
 _gpd_grasp_msgs_generate_messages_check_deps_GraspConfigList: gpd_grasp_msgs/CMakeFiles/_gpd_grasp_msgs_generate_messages_check_deps_GraspConfigList.dir/build.make

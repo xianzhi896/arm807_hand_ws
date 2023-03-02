@@ -1,0 +1,8 @@
+prefix=/home/yxz/arm807_hand_ws/install
+
+Name: v9test4
+Description: Description of v9test4
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

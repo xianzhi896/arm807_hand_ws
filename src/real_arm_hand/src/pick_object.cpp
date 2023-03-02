@@ -1,8 +1,8 @@
 /*
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2023-02-16 21:38:24
- * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2023-02-17 14:59:14
+ * @LastEditors: xyz 2410391147@qq.com
+ * @LastEditTime: 2023-02-27 14:40:41
  * @FilePath: /arm807_hand_ws/src/real_arm_hand/src/pick_object.cpp
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -53,13 +53,15 @@ int main(int argc, char **argv) {
     ROS_INFO("Picking Object");
     while (ros::ok()) {
         if (success) {
+            /*
             po.arm->setNamedTarget("extended");
             while (!po.arm->move())
                 ROS_ERROR("moving to extended pose failed.");
-            po.gripper->setNamedTarget("pinch_open");
+            */
+            po.gripper->setNamedTarget("gripper_open");
             while (!po.gripper->move())
                 ROS_ERROR("opening gripper failed.");
-            po.arm->setNamedTarget("home");
+            po.arm->setNamedTarget("arm_home");
             while (!po.arm->move())
                 ROS_ERROR("moving home failed.");
             ros::Duration(5).sleep();

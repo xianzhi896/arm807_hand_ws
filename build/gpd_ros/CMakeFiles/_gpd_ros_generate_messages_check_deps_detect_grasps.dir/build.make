@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yxz/arm807_hand_ws/build
 include gpd_ros/CMakeFiles/_gpd_ros_generate_messages_check_deps_detect_grasps.dir/progress.make
 
 gpd_ros/CMakeFiles/_gpd_ros_generate_messages_check_deps_detect_grasps:
-	cd /home/yxz/arm807_hand_ws/build/gpd_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py gpd_ros /home/yxz/arm807_hand_ws/src/gpd_ros/srv/detect_grasps.srv sensor_msgs/PointField:geometry_msgs/Point:gpd_ros/GraspConfig:gpd_ros/GraspConfigList:gpd_ros/CloudIndexed:std_msgs/Float32:sensor_msgs/PointCloud2:std_msgs/Int64:std_msgs/Header:gpd_ros/CloudSources:geometry_msgs/Vector3
+	cd /home/yxz/arm807_hand_ws/build/gpd_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py gpd_ros /home/yxz/arm807_hand_ws/src/gpd_ros/srv/detect_grasps.srv sensor_msgs/PointField:gpd_ros/GraspConfig:std_msgs/Header:gpd_ros/CloudIndexed:gpd_ros/CloudSources:std_msgs/Float32:sensor_msgs/PointCloud2:geometry_msgs/Point:geometry_msgs/Vector3:gpd_ros/GraspConfigList:std_msgs/Int64
 
 _gpd_ros_generate_messages_check_deps_detect_grasps: gpd_ros/CMakeFiles/_gpd_ros_generate_messages_check_deps_detect_grasps
 _gpd_ros_generate_messages_check_deps_detect_grasps: gpd_ros/CMakeFiles/_gpd_ros_generate_messages_check_deps_detect_grasps.dir/build.make

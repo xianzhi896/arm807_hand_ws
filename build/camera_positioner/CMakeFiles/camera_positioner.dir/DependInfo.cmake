@@ -17,15 +17,20 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/opt/ros/noetic/include"
-  "/opt/ros/noetic/include/apriltag"
+  "/home/yxz/arm807_hand_ws/devel/include"
+  "/home/yxz/arm807_hand_ws/src/apriltag_ros/apriltag_ros/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
+  "/opt/ros/noetic/include"
+  "/opt/ros/noetic/include/apriltag"
   "/usr/include/opencv4"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/yxz/arm807_hand_ws/build/apriltag_ros/apriltag_ros/CMakeFiles/apriltag_ros_continuous_detector.dir/DependInfo.cmake"
+  "/home/yxz/arm807_hand_ws/build/apriltag_ros/apriltag_ros/CMakeFiles/apriltag_ros_single_image_detector.dir/DependInfo.cmake"
+  "/home/yxz/arm807_hand_ws/build/apriltag_ros/apriltag_ros/CMakeFiles/apriltag_ros_common.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -69,6 +69,16 @@
   <exec_depend>serial</exec_depend>
 
 
+  <build_depend>rs_yolo</build_depend>
+  <exec_depend>rs_yolo</exec_depend>
+
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>moveit_visual_tools</build_depend>
+
+  <exec_depend>moveit_core</exec_depend>
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+  <exec_depend>moveit_visual_tools</exec_depend>
   <!-- The export tag contains other, unspecified, tags -->
   <export>
     <!-- Other tools can request additional information be placed here -->

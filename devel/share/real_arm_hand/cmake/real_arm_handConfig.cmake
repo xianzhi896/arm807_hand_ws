@@ -185,7 +185,7 @@ foreach(t ${real_arm_hand_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "actionlib;moveit_msgs;roscpp;rospy;sensor_msgs;serial;moveit_core;moveit_ros_planning_interface;moveit_visual_tools")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
